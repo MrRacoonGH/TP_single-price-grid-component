@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6EFF5;
+    font-family: "Karla", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: auto;
+    width: 635px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.head{
+    padding: 40px;
+}
+
+.subscrition {
+    display: flex;
+}
+
+h1 {
+    color: #2AB3B1;
+    font-size: 24px;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+}
+
+.price{
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price span {
+    margin-left: 12px;
+}
+
+.full-access {
+    color: white    ;
+}
+
+li {
+    color: #FFFFFF;
+    opacity: 50%;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+a {
+    width: 237px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C0DF33;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px #00000019;
+    color: white;
+    text-decoration: none;
+}
+
+.guarantee {
+    color: #C0DF33;
+    font-size: 18px;
+}
+
+.library {
+    color: #9AA7BE;
+}
+
+.buy {
+    width: 50%;
+    background-color: #2AB3B1;
+    padding: 40px;
+}
+
+.us {
+    width: 50%;
+    padding: 40px;
+    background-color: #2AB3B1BB;
+}
+
+span {
+    font-size: 16px;
+    opacity: 50%;
+}
